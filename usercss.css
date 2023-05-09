@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.form-register {
+  width: 1080px;
+  background: rgb(196, 94, 94);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgb(255, 255, 255);
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0303fc;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.form-register a {
+  color: rgb(83, 0, 0);
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: rgb(65, 2, 2);
+  text-decoration: underline;
+}
+
+.form-register .boton {
+  width: 100%;
+  background: #04c283;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.logo
+{
+  border-radius: 12px;
+}
+
+.gustos
+{
+  
+  border-radius: 20px;
+  margin-block: 30px;
+}
+
+.range-slider {
+  width: 300px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+p{
+  text-align: center;
+  margin-top: -10px;
+  font-size: 30px;
+  color: rgb(235, 235, 235);
+}
+.range-slider .rangeValues {
+  display: block;
+  box-shadow: 0 0 20px rgba(0,139,253,0.25);
+  padding: 20px;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  width: 300px;
+  position: absolute;
+  left: 0;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 40%;
+  background: #ffffff;
+  margin-top: -6px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+input:invalid {
+border: 2px solid red;
+}
+
+input:valid {
+border: 2px solid rgb(180, 11, 11);
+}
